@@ -1,0 +1,37 @@
+Acts	Act for the Good Government of India
+Acts	Act of Settlement
+Acts	Amending Act of 1781
+Acts	Charter Act of 1833
+Acts	Charter Act of 1853
+Acts	Government of India Act of 1858
+Acts	Government of India Act of 1919
+Acts	Government of India Act of 1935
+Acts	Indian Councils Act of 1861
+Acts	Indian Councils Act of 1892
+Acts	Indian Councils Act of 1909
+Acts	Indian Independence Act of 1947
+Acts	Pitt's India Act of 1784
+Acts	Regulating Act of 1773
+default	Adult Franchise
+default	British Commonwealth
+default	Communal Award
+default	Fundamental Rights
+default	Minerva Mills case
+default	Montagu-Chelmsford Refroms
+default	Motley-Minto Reforms
+default	Mountbatten Plan
+default	Objectives Resolution
+default	Poona Pact
+default	Reserve Bank of India
+default	Revolt of 1857
+default	Sepoy mutiny
+default	Simon Commission
+default	Yervada Jail
+default	bicameralism
+default	civil servants
+default	communal representation
+default	portfolio system
+default	public service commission
+default	separate budget
+default	separate electorate
+default	universal adult franchise

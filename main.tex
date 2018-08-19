@@ -1,0 +1,176 @@
+\documentclass[a4paper,12pt,twoside,twocolumn]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{anyfontsize}
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{hyphenat}
+\usepackage{imakeidx}
+\usepackage{mathptmx}
+\usepackage{textcomp}
+\usepackage[english]{babel}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage[toc]{glossaries}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=black,bookmarksopen=true]{hyperref}
+\usepackage[margin=1in,columnsep=1cm]{geometry}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for text formatting
+%
+\tolerance=800
+\hyphenpenalty=1000
+% \parindent=0pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for index
+%
+\makeindex[
+	columns=1, 
+	title=Index, 
+	options= -s styles/index.ist,
+	intoc
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% title format for chapter
+%
+\usepackage{tikzpagenodes}
+\usepackage[explicit]{titlesec}
+
+\usepackage{xcolor}
+\usepackage{microtype}
+\definecolor{myblue}{RGB}{0,82,155}
+
+\titleformat{\chapter}[display]
+{\LARGE\raggedright}
+{}{0cm}
+{
+	\begin{tikzpicture}[remember picture,overlay]
+	\fill[gray!20]
+	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
+	\node[inner sep=0pt,anchor=west] (label) at 
+	([yshift=-4cm]current page text area.west|-current page.north)
+	{\rotatebox[origin=c]{90}{%
+			\normalfont\color{black}\Large%
+			\textls[180]{\textsc{\chaptertitlename}}%
+		}\hspace{10pt}%
+		{\setlength\fboxsep{0pt}%
+			\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
+					\centering\color{white}\fontsize{70}{80}\selectfont \thechapter}%
+		}}%
+	};
+	\node[right of=label, minimum height=3cm, text width=.5\paperwidth] at ([yshift=-3.25cm, xshift=.464\paperwidth]current page text area.west|-current page.north){\begin{flushright}\Huge #1\end{flushright}};;
+	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
+	{\color{gray!20}\rule{\paperwidth}{0pt}};
+	\end{tikzpicture}
+}
+[\enlargethispage{-\parskip}\vspace{1cm}]
+
+\titleformat{name=\chapter,numberless}[display]
+{\LARGE\raggedright}
+{}{0cm}
+{\begin{tikzpicture}[remember picture,overlay]
+	\fill[gray!20] 
+	(current page.north west) rectangle ([yshift=-6cm]current page.north east);
+	\node[inner sep=0pt,anchor=south west] (title) at ([yshift=-4cm]current page text area.west|-current page.north)
+	{	
+		\parbox[t]{2cm}{\mbox{}}%
+		\parbox[t]{\dimexpr\linewidth-2cm\relax}{\flushright\Huge#1}
+	};
+	\node[inner sep=0pt,anchor=north west] at ([yshift=-6cm]current page.north west)
+	{\color{gray!20}\rule{\paperwidth}{1cm}};
+	\end{tikzpicture}%
+}
+[\enlargethispage{-\parskip}\vspace{1cm}]
+
+\titleformat{\section}
+{\normalfont\large\bfseries}{}{0pt}{#1}{}
+\titleformat{\subsection}
+{\normalfont\normalsize\bfseries}{}{0pt}{#1}{}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{}{0pt}{#1}{}
+%\titleformat{\paragraph}[runin]
+%{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{#1}{}
+%\titleformat{\subparagraph}[runin]
+%{\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{#1}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for custom commands
+%
+\newcommand{\quotesingle}[1]{\textquoteleft \textit{#1}\textquoteright}
+\newcommand{\quotedouble}[1]{\textquotedblleft \textit{#1}\textquotedblright}
+\newcommand{\colord}[0]{\color{blue}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for glossaries
+%
+\newglossary[person.log]{person}{in-person}{out-person}{Notable Persons}
+\newglossary[committee.log]{committee}{in-committee}{out-committee}{Committees}
+\newglossary[date.log]{date}{in-date}{out-date}{Dates}
+
+\makeglossaries
+
+\loadglsentries{glossaries/main}
+\loadglsentries{glossaries/committee}
+\loadglsentries{glossaries/person}
+\loadglsentries{glossaries/dates}
+\loadglsentries{glossaries/law}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start with onecolumn layout
+%
+\onecolumn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Information
+%
+\author{M. Laxmikanth}
+\title{Indian Polity for Civil Services Examinations}
+\date{2018}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start front matter like
+% Cover, Table of Content etc.
+%
+\frontmatter
+%\maketitle
+\includepdf[pages=-]{./covers/cover.pdf}
+
+\tableofcontents
+\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start chapters
+%
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Clear double page after each part and chaper
+%
+\include{chapters/01_00}
+\include{chapters/01_01}
+\include{chapters/01_02}
+\include{chapters/01_03}
+\include{chapters/01_04}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start index, glossaries
+%
+\backmatter
+\onecolumn
+\setglossarystyle{listhypergroup}
+
+\printglossary[title=Special Terms, toctitle=List of Terms,type=main]
+\printglossary[title=Important Dates, toctitle=List of Important Dates,type=date,style=altlist]
+\printglossary[title=Special Committees, toctitle=List of Committees,type=committee]
+\printglossary[title=Notable Persons, toctitle=List of Notable Persons,type=person,style=altlist]
+
+\twocolumn
+\printindex
+\end{document}

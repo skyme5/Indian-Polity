@@ -6,9 +6,7 @@ Acts	Charter Act of 1853
 Acts	Government of India Act of 1858
 Acts	Government of India Act of 1919
 Acts	Government of India Act of 1935
-Acts	Indian Councils Act of 1861
-Acts	Indian Councils Act of 1892
-Acts	Indian Councils Act of 1909
+Acts	Indian Councils Act of 1861, 1892 and 1909
 Acts	Indian Independence Act of 1947
 Acts	Pitt's India Act of 1784
 Acts	Regulating Act of 1773

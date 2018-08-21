@@ -25,34 +25,18 @@
 						pdfkeywords={Polity, Indian Polity, Civil Services},
 						pdfproducer={pdflatex},
 						pdfcreator={Latex with hyperref}]{hyperref}
-						
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% code for text formatting
-%
-\tolerance=800
-\hyphenpenalty=10000
-% \parindent=0pt
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% code for index
-%
-\makeindex[
-	columns=1, 
-	title=Index, 
-	options= -s styles/index.ist,
-	intoc
-]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % title format for chapter
 %
 \usepackage{tikzpagenodes}
 \usepackage[explicit]{titlesec}
-
 \usepackage{xcolor}
 \usepackage{microtype}
 \definecolor{myblue}{RGB}{0,82,155}
 
+%	For Chapters
 \titleformat{\chapter}[display]
 {\LARGE\raggedright}
 {}{0cm}
@@ -78,6 +62,7 @@
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
 
+% For Front-matter
 \titleformat{name=\chapter,numberless}[display]
 {\LARGE\raggedright}
 {}{0cm}
@@ -95,6 +80,27 @@
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for text formatting
+%
+\tolerance=800
+\hyphenpenalty=10000
+% \parindent=0pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for index
+%
+\makeindex[
+columns=1, 
+title=Index, 
+options= -s styles/index.ist,
+intoc
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% code for custom format
+% section, subsection, subsubsection
+%
 \titleformat{\section}
 {\normalfont\large\bfseries}{}{0pt}{#1}{}
 \titleformat{\subsection}

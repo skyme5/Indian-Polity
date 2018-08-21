@@ -1,18 +1,110 @@
-\@doanenote {51}
-macro:->1
+\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textasteriskcentered'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def \par }}{*}}
+macro:->The
+Mughal
+Emperor,
+\gls
+{person:ShahAlamg3y},
+granted
+\quotesingle
+{Diwani}
+to
+the
+Company
+after
+its
+victory
+in
+the
+Battle
+of
+Buxar
+(1764)
 \@endanenote 
-\@doanenote {52}
-macro:->2
+\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textdagger'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def \par }}{\dagger }}
+macro:->It
+was
+introduced
+in
+the
+British
+Parliament
+by
+the
+then
+Prime
+Minister,
+\gls
+{person:WilliamPittGkD}
 \@endanenote 
-\@doanenote {53}
-macro:->4
+\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textdaggerdbl'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def {\@@par }}}{\ddagger }}
+macro:->At
+that
+time,
+the
+Civil
+Services
+of
+the
+company
+were
+classified
+into
+covenanted
+civil
+services
+(higher
+civil
+services)
+and
+uncovenanted
+civil
+services
+(lower
+civil
+services).
+The
+former
+was
+created
+by
+a
+law
+of
+the
+Company,
+while
+the
+lated
+was
+created
+otherwise.
 \@endanenote 
-\@doanenote {54}
-macro:->5
+\@doanenote {\TextOrMath  {\T1\textsection }{\mathsection }}
+macro:->Subhash
+C.
+Kashyap,
+\textit
+{Out
+Constitution},
+National
+Book
+Trust,
+3rd
+Edition,
+2001,
+P.
+A-10
 \@endanenote 
-\@doanenote {55}
-macro:->6
-\@endanenote 
-\@doanenote {56}
-macro:->7
+\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textparagraph'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def {\@@par }}}{\mathparagraph }}
+macro:->The
+system
+of
+Budget
+was
+introduced
+in
+British
+India
+in
+1860.
 \@endanenote 

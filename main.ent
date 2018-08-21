@@ -1,110 +1,18 @@
-\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textasteriskcentered'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def \par }}{*}}
-macro:->The
-Mughal
-Emperor,
-\gls
-{person:ShahAlamg3y},
-granted
-\quotesingle
-{Diwani}
-to
-the
-Company
-after
-its
-victory
-in
-the
-Battle
-of
-Buxar
-(1764)
+\@doanenote {LI}
+macro:->1
 \@endanenote 
-\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textdagger'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def \par }}{\dagger }}
-macro:->It
-was
-introduced
-in
-the
-British
-Parliament
-by
-the
-then
-Prime
-Minister,
-\gls
-{person:WilliamPittGkD}
+\@doanenote {LII}
+macro:->2
 \@endanenote 
-\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textdaggerdbl'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def {\@@par }}}{\ddagger }}
-macro:->At
-that
-time,
-the
-Civil
-Services
-of
-the
-company
-were
-classified
-into
-covenanted
-civil
-services
-(higher
-civil
-services)
-and
-uncovenanted
-civil
-services
-(lower
-civil
-services).
-The
-former
-was
-created
-by
-a
-law
-of
-the
-Company,
-while
-the
-lated
-was
-created
-otherwise.
+\@doanenote {LIII}
+macro:->4
 \@endanenote 
-\@doanenote {\TextOrMath  {\T1\textsection }{\mathsection }}
-macro:->Subhash
-C.
-Kashyap,
-\textit
-{Out
-Constitution},
-National
-Book
-Trust,
-3rd
-Edition,
-2001,
-P.
-A-10
+\@doanenote {LIV}
+macro:->5
 \@endanenote 
-\@doanenote {\TextOrMath  {\unhbox \voidb@x {\def {\MessageBreak for \symbol `\textparagraph'}\edef T1{TS1}\xdef \TS1/ptm/m/n/9 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\TS1/ptm/m/n/9 \def {\@@par }}}{\mathparagraph }}
-macro:->The
-system
-of
-Budget
-was
-introduced
-in
-British
-India
-in
-1860.
+\@doanenote {LV}
+macro:->6
+\@endanenote 
+\@doanenote {LVI}
+macro:->7
 \@endanenote 

@@ -1,18 +1,110 @@
-\@doanenote {LI}
-macro:->1
+\@doanenote {\relax \protect \afterassignment \edef 12{72.26999}\afterassignment \edef 14.5pt{50.0pt}\edef {}\let \def \size@update {\baselineskip 14.5pt\relax \baselineskip \baselineskip \normalbaselineskip \baselineskip \setbox \strutbox \hbox {\vrule height.7\baselineskip depth.3\baselineskip width\z@ }\let \size@update \relax }\protect \xdef \T1/ptm/m/n/12 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\T1/ptm/m/n/12 \def \par }
+macro:->The
+Mughal
+Emperor,
+\gls
+{person:ShahAlamg3y},
+granted
+\quotesingle
+{Diwani}
+to
+the
+Company
+after
+its
+victory
+in
+the
+Battle
+of
+Buxar
+(1764)
 \@endanenote 
-\@doanenote {LII}
-macro:->2
+\@doanenote {\relax \protect \afterassignment \edef 12{72.26999}\afterassignment \edef 14.5pt{16.78757pt plus 5.1654pt minus 1.03305pt}\edef {}\let \def \size@update {\baselineskip 14.5pt\relax \baselineskip \baselineskip \normalbaselineskip \baselineskip \setbox \strutbox \hbox {\vrule height.7\baselineskip depth.3\baselineskip width\z@ }\let \size@update \relax }\protect \xdef \T1/ptm/m/n/12 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\T1/ptm/m/n/12 \def \par }
+macro:->It
+was
+introduced
+in
+the
+British
+Parliament
+by
+the
+then
+Prime
+Minister,
+\gls
+{person:WilliamPittGkD}
 \@endanenote 
-\@doanenote {LIII}
-macro:->4
+\@doanenote {\relax \protect \afterassignment \edef 12{72.26999}\afterassignment \edef 14.5pt{16.78757pt plus 5.1654pt minus 1.03305pt}\edef {}\let \def \size@update {\baselineskip 14.5pt\relax \baselineskip \baselineskip \normalbaselineskip \baselineskip \setbox \strutbox \hbox {\vrule height.7\baselineskip depth.3\baselineskip width\z@ }\let \size@update \relax }\protect \xdef \T1/ptm/m/n/12 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\T1/ptm/m/n/12 \def {\@@par }}
+macro:->At
+that
+time,
+the
+Civil
+Services
+of
+the
+company
+were
+classified
+into
+covenanted
+civil
+services
+(higher
+civil
+services)
+and
+uncovenanted
+civil
+services
+(lower
+civil
+services).
+The
+former
+was
+created
+by
+a
+law
+of
+the
+Company,
+while
+the
+lated
+was
+created
+otherwise.
 \@endanenote 
-\@doanenote {LIV}
-macro:->5
+\@doanenote {\relax \protect \afterassignment \edef 12{72.26999}\afterassignment \edef 14.5pt{16.78757pt plus 5.1654pt minus 1.03305pt}\edef {}\let \def \size@update {\baselineskip 14.5pt\relax \baselineskip \baselineskip \normalbaselineskip \baselineskip \setbox \strutbox \hbox {\vrule height.7\baselineskip depth.3\baselineskip width\z@ }\let \size@update \relax }\protect \xdef \T1/ptm/m/n/12 {\T1/ptm/m/it/12 }\begingroup \escapechar \m@ne \let \MT@subst@\T1/ptm/m/n/12 \def \par }
+macro:->Subhash
+C.
+Kashyap,
+\textit
+{Out
+Constitution},
+National
+Book
+Trust,
+3rd
+Edition,
+2001,
+P.
+A-10
 \@endanenote 
-\@doanenote {LV}
-macro:->6
-\@endanenote 
-\@doanenote {LVI}
-macro:->7
+\@doanenote {\relax \protect \afterassignment \edef 12{72.26999}\afterassignment \edef 14.5pt{16.78757pt plus 5.1654pt minus 1.03305pt}\edef {}\let \def \size@update {\baselineskip 14.5pt\relax \baselineskip \baselineskip \normalbaselineskip \baselineskip \setbox \strutbox \hbox {\vrule height.7\baselineskip depth.3\baselineskip width\z@ }\let \size@update \relax }\protect \xdef \T1/ptm/m/n/12 {\T1/ptm/m/n/12 }\begingroup \escapechar \m@ne \let \MT@subst@\T1/ptm/m/n/12 \def {\@@par }}
+macro:->The
+system
+of
+Budget
+was
+introduced
+in
+British
+India
+in
+1860.
 \@endanenote 

@@ -1,10 +1,10 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
 \glsgroupheading{N}\relax \glsresetentrylist %
-\glossentry{NorthWesternFrontierProvincef3l}{\glossaryentrynumbers{\relax 
+\glossentry{NorthWesternFrontierProvinceVoF}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
-\glossentry{SeparateElectorateQC5}{\glossaryentrynumbers{\relax 
+\glossentry{SeparateElectoratew4g}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \end{theglossary}\glossarypostamble

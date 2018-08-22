@@ -1,91 +1,110 @@
 {
-  "title": "Dates",
-  "name": "date",
-  "type": "date",
-  "entries": [
-    {
-      "name": "August 20, 1917",
-      "content": "not available"
-    },
-    {
-      "name": "March 24, 1946",
-      "content": "not available"
-    },
-    {
-      "name": "May 16, 1946",
-      "content": "not available"
-    },
-    {
-      "name": "December 9, 1946",
-      "content": "not available"
-    },
-    {
-      "name": "December 13, 1946",
-      "content": "not available"
-    },
-    {
-      "name": "April 28, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "June 3, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "July 4, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "July 18, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "August 15, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "August 29, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "November 17, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "December 31, 1947",
-      "content": "not available"
-    },
-    {
-      "name": "June 20, 1948",
-      "content": "not available"
-    },
-    {
-      "name": "November 4, 1948",
-      "content": "not available"
-    },
-    {
-      "name": "November 9, 1948",
-      "content": "not available"
-    },
-    {
-      "name": "November 15, 1948",
-      "content": "not available"
-    },
-    {
-      "name": "October 17, 1949",
-      "content": "not available"
-    },
-    {
-      "name": "November 14, 1949",
-      "content": "not available"
-    },
-    {
-      "name": "November 26, 1949",
-      "content": "not available"
-    },
-    {
-      "name": "April 17, 1952",
-      "content": "not available"
-    }
-  ]
+ "title": "Dates",
+ "name": "date",
+ "type": "date",
+ "entries": [{
+  "id": "1917-7-20",
+  "name": "August 20, 1917",
+  "content": "not available"
+ },
+ {
+  "id": "1946-2-24",
+  "name": "March 24, 1946",
+  "content": "not available"
+ },
+ {
+  "id": "1946-4-16",
+  "name": "May 16, 1946",
+  "content": "not available"
+ },
+ {
+  "id": "1946-11-9",
+  "name": "December 9, 1946",
+  "content": "not available"
+ },
+ {
+  "id": "1946-11-13",
+  "name": "December 13, 1946",
+  "content": "not available"
+ },
+ {
+  "id": "1947-3-28",
+  "name": "April 28, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-5-3",
+  "name": "June 3, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-6-4",
+  "name": "July 4, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-6-18",
+  "name": "July 18, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-7-15",
+  "name": "August 15, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-7-29",
+  "name": "August 29, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-10-17",
+  "name": "November 17, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1947-11-31",
+  "name": "December 31, 1947",
+  "content": "not available"
+ },
+ {
+  "id": "1948-5-20",
+  "name": "June 20, 1948",
+  "content": "not available"
+ },
+ {
+  "id": "1948-10-4",
+  "name": "November 4, 1948",
+  "content": "not available"
+ },
+ {
+  "id": "1948-10-9",
+  "name": "November 9, 1948",
+  "content": "not available"
+ },
+ {
+  "id": "1948-10-15",
+  "name": "November 15, 1948",
+  "content": "not available"
+ },
+ {
+  "id": "1949-9-17",
+  "name": "October 17, 1949",
+  "content": "not available"
+ },
+ {
+  "id": "1949-10-14",
+  "name": "November 14, 1949",
+  "content": "not available"
+ },
+ {
+  "id": "1949-10-26",
+  "name": "November 26, 1949",
+  "content": "not available"
+ },
+ {
+  "id": "1952-3-17",
+  "name": "April 17, 1952",
+  "content": "not available"
+ }]
 }

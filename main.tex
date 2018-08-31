@@ -184,7 +184,24 @@
 %
 \frontmatter
 \includepdf[pages=-]{./cover/front.pdf}
-\maketitle
+
+\newpage
+\thispagestyle{empty}
+%\setlength{\parindent}{0pt}%
+%\setlength{\parskip}{4pt}%
+\noindent
+{\sffamily\LARGE{
+	\begin{flushleft}
+		\@author
+	\end{flushleft}
+}\par}
+\vspace{1in}
+{\sffamily\fontsize{50}{60}\selectfont{
+	\begin{flushleft}
+			\@title
+	\end{flushleft}
+}\par}
+\cleardoublepage
 
 
 \tableofcontents

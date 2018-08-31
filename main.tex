@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside,twocolumn]{book}
+\documentclass[12pt, twoside, twocolumn]{book}
 \usepackage[utf8]{inputenc}
 \usepackage{anyfontsize}
 \usepackage[T1]{fontenc}
@@ -13,7 +13,7 @@
 \usepackage{booktabs}
 \usepackage{endnotes}
 \usepackage{csquotes}
-\usepackage[toc]{glossaries}
+\usepackage[nomain, toc]{glossaries}
 
 \usepackage[paperwidth=18cm,
 						paperheight=24cm,,
@@ -53,7 +53,7 @@
 	\begin{tikzpicture}[remember picture,overlay]
 	\fill[gray!20]
 	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
-	\node[inner sep=0pt,anchor=west] (label) at 
+	\node[inner sep=0pt,anchor=west] (label) at
 	([yshift=-4cm]current page text area.west|-current page.north)
 	{\rotatebox[origin=c]{90}{%
 			\normalfont\color{black}\Large%
@@ -76,10 +76,10 @@
 {\LARGE\raggedright}
 {}{0cm}
 {\begin{tikzpicture}[remember picture,overlay]
-	\fill[gray!20] 
+	\fill[gray!20]
 	(current page.north west) rectangle ([yshift=-6cm]current page.north east);
 	\node[inner sep=0pt,anchor=south west] (title) at ([yshift=-4cm]current page text area.west|-current page.north)
-	{	
+	{
 		\parbox[t]{2cm}{\mbox{}}%
 		\parbox[t]{\dimexpr\linewidth-2cm\relax}{\flushright\Huge#1}
 	};
@@ -107,10 +107,10 @@
 % code for index
 %
 \makeindex[
-columns=1, 
-title=Index, 
-options= -s styles/index.ist,
-intoc
+	columns=1,
+	title=Index,
+	options= -s styles/index.ist,
+	intoc
 ]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,6 +137,7 @@ intoc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % code for glossaries
 %
+\newglossary[default.log]{default}{in-default}{out-default}{Terms}
 \newglossary[person.log]{person}{in-person}{out-person}{Notable Persons}
 \newglossary[committee.log]{committee}{in-committee}{out-committee}{Committees}
 \newglossary[date.log]{date}{in-date}{out-date}{Dates}
@@ -149,7 +150,7 @@ intoc
 \loadglsentries{glossaries/date}
 \loadglsentries{glossaries/law}
 
-\renewcommand{\theendnote}{[\arabic{endnote}]} 
+\renewcommand{\theendnote}{[\arabic{endnote}]}
 
 
 \begin{document}
@@ -202,7 +203,7 @@ intoc
 \onecolumn
 \setglossarystyle{listhypergroup}
 
-\printglossary[title=Special Terms, toctitle=List of Terms,type=main]
+\printglossary[title=Special Terms, toctitle=List of Terms,type=default]
 \printglossary[title=Important Dates, toctitle=List of Important Dates,type=date,style=altlist]
 \printglossary[title=Special Committees, toctitle=List of Committees,type=committee]
 \printglossary[title=Notable Persons, toctitle=List of Notable Persons,type=person,style=altlist]

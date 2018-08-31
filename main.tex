@@ -147,11 +147,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % code for glossaries
 %
-\newglossary[default.log]{default}{in-default}{out-default}{Terms}
-\newglossary[person.log]{person}{in-person}{out-person}{Notable Persons}
-\newglossary[committee.log]{committee}{in-committee}{out-committee}{Committees}
-\newglossary[date.log]{date}{in-date}{out-date}{Dates}
-\newglossary[law.log]{law}{in-law}{out-date}{Articles}
+\newglossary[default.log]{default}{default.in}{default.out}{Terms}
+\newglossary[person.log]{person}{person.in}{person.out}{Notable Persons}
+\newglossary[committee.log]{committee}{committee.in}{committee.out}{Committees}
+\newglossary[date.log]{date}{date.in}{date.out}{Dates}
+\newglossary[article.log]{article}{article.in}{date.out}{Articles}
 
 \makeglossaries
 
@@ -159,7 +159,7 @@
 \loadglsentries{TeX_gls/committee}
 \loadglsentries{TeX_gls/person}
 \loadglsentries{TeX_gls/date}
-\loadglsentries{TeX_gls/law}
+\loadglsentries{TeX_gls/article}
 
 \hyp{Governor-Genera}
 
@@ -235,6 +235,7 @@
 \setglossarystyle{listhypergroup}
 
 \printglossary[title=Special Terms, toctitle=List of Terms,type=default]
+\printglossary[title=Articles in Constitution, toctitle=Articles in Constitution,type=article]
 \printglossary[title=Important Dates, toctitle=List of Important Dates,type=date,style=altlist]
 \printglossary[title=Special Committees, toctitle=List of Committees,type=committee]
 \printglossary[title=Notable Persons, toctitle=List of Notable Persons,type=person,style=altlist]

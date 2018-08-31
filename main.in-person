@@ -34,23 +34,22 @@
 		\setentrycounter[]{page}\glsnumberformat{14}}}%
 \glossentry{person:DR-B-R-AMBEDKAR}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{16\delimR 18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31\delimN 32}}}%
 \glossentry{person:DR-JOHN-MATHAI}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossentry{person:DR-K-M-MUNSHI}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{17}}}%
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}}}%
 \glossentry{person:DR-RAJENDRA-PRASAD}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{14\delimR 17}}}%
+		\setentrycounter[]{page}\glsnumberformat{14\delimR 16}}}%
 \glossentry{person:DR-SHYAMA-PRASAD-MUKHERJI}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossentry{person:G-V-MAVALANKAR}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{17}}}%
+		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}}}%
 \glossentry{person:GHAZNAFAR-ALI-KHAN}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossentry{person:GOPINATH-BARDOLOI}{\glossaryentrynumbers{\relax 
@@ -90,7 +89,7 @@
 		\setentrycounter[]{page}\glsnumberformat{10}}}\glsgroupskip
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossentry{person:K-HANUMANTHAIYA}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{32}}}%
+		\setentrycounter[]{page}\glsnumberformat{31\delimN 32}}}%
 \glossentry{person:K-C-WHEARE}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{26}}}%
 \glossentry{person:KESHAVANANDA-BHARTI}{\glossaryentrynumbers{\relax 
@@ -103,11 +102,11 @@
 \glossentry{person:LORD-CANNING}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4\delimN 5}}}%
 \glossentry{person:LORD-MINTO}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{6}}}%
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}}}%
 \glossentry{person:LORD-MOUNTBETTEN}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{8\delimN 9}}}%
 \glossentry{person:LORD-VISCOUNT-SIMON}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{19}}}%
+		\setentrycounter[]{page}\glsnumberformat{18}}}%
 \glossentry{person:LORD-WILLIAM-BENTICK}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
@@ -158,7 +157,7 @@
 		\setentrycounter[]{page}\glsnumberformat{7}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{person:S-VARADACHARI}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{17}}}%
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}}}%
 \glossentry{person:S-K-DAR}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{17}}}%
 \glossentry{person:S-N-MUKERJEE}{\glossaryentrynumbers{\relax 
@@ -198,5 +197,5 @@
 \glossentry{person:WILLIAM-PITT}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{12}}}%
 \glossentry{person:WINSTON-CHURCHILL}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{19}}}%
+		\setentrycounter[]{page}\glsnumberformat{18}}}%
 \end{theglossary}\glossarypostamble

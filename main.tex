@@ -72,11 +72,11 @@
 		\textls[180]{\textsc{\chaptertitlename}}%
 	}\hspace{10pt}%
 	{\setlength\fboxsep{0pt}%
-		\colorbox{myblue}{\parbox[c][3cm][c]{2.5cm}{%
+		\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
 				\centering\color{white}\fontsize{80}{90}\selectfont \textbf{\thechapter}}%
 	}}%
 };
-\node[right of=label, minimum height=17cm,text width=.5\paperwidth] at ([yshift=-4.6cm, xshift=.48\paperwidth]current page text area.west|-current page.north){\begin{flushright}\textbf{\Huge #1}\end{flushright}};;
+\node[below of=label, minimum height=17cm,text width=.5\paperwidth] at ([yshift=-4.6cm, xshift=.28\paperwidth]current page text area.west|-current page.north){\begin{flushright}\textbf{\Huge #1}\end{flushright}};;
 \node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
 {\color{gray!20}\rule{\paperwidth}{1cm}};
 \end{tikzpicture}

@@ -10,26 +10,26 @@ Acts	Indian Councils Act of 1861, 1892 and 1909
 Acts	Indian Independence Act of 1947
 Acts	Pitt's India Act of 1784
 Acts	Regulating Act of 1773
-default	Adult Franchise
-default	British Commonwealth
-default	Communal Award
-default	Fundamental Rights
-default	Minerva Mills case
-default	Montagu-Chelmsford Refroms
-default	Motley-Minto Reforms
-default	Mountbatten Plan
-default	Objectives Resolution
-default	Poona Pact
-default	Reserve Bank of India
-default	Revolt of 1857
-default	Sepoy mutiny
-default	Simon Commission
-default	Yervada Jail
-default	bicameralism
-default	civil servants
-default	communal representation
-default	portfolio system
-default	public service commission
-default	separate budget
-default	separate electorate
-default	universal adult franchise
+Adult Franchise
+British Commonwealth
+Communal Award
+Fundamental Rights
+Minerva Mills case
+Montagu-Chelmsford Refroms
+Motley-Minto Reforms
+Mountbatten Plan
+Objectives Resolution
+Poona Pact
+Reserve Bank of India
+Revolt of 1857
+Sepoy mutiny
+Simon Commission
+Yervada Jail
+bicameralism
+civil servants
+communal representation
+portfolio system
+public service commission
+separate budget
+separate electorate
+universal adult franchise

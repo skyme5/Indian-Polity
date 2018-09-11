@@ -1,6 +1,6 @@
 % !TeX TS-program = pdflatex
 % !TeX spellcheck = en_US
-\documentclass[10pt, oneside, openright, draft]{memoir}
+\documentclass[10pt, openright, draft]{memoir}
 % \usepackage{csquotes}
 % \usepackage{mathptmx}
 % \usepackage{textcomp}
@@ -174,11 +174,6 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Start with onecolumn layout
-%
-\onecolumn
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Information
 %
 \author{M. Laxmikanth}
@@ -236,7 +231,6 @@
 % Start index, glossaries
 %
 \backmatter
-\onecolumn
 \setglossarystyle{listhypergroup}
 
 \printglossary[title=Special Terms, toctitle=List of Terms,type=default]
@@ -245,6 +239,5 @@
 \printglossary[title=Special Committees, toctitle=List of Committees,type=committee]
 \printglossary[title=Notable Persons, toctitle=List of Notable Persons,type=person]
 
-\twocolumn
 \printindex
 \end{document}

@@ -65,21 +65,25 @@
 \begin{tikzpicture}[remember picture,overlay]
 \fill[gray!20]
 (current page.north west) rectangle ([yshift=-7cm]current page.north east);
-\node[inner sep=0pt,anchor=west] (label) at
-(-0.2, 3.4)
-{\rotatebox[origin=c]{90}{%
-		\normalfont\color{black}\Large%
-		\textls[180]{\textsc{\chaptertitlename}}%
-	}\hspace{5pt}%
-	{\setlength\fboxsep{0pt}%
-		\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{%
-				\centering\color{white}\fontsize{80}{90}\selectfont \textbf{\thechapter}}%
-	}}%
+\node[inner sep=0pt,anchor=west] (label) at (-0.2, 3.4){
+	\rotatebox[origin=c]{90}{
+		\normalfont\color{black}\Large
+		\textls[180]{\textsc{\chaptertitlename}}
+	}\hspace{5pt}
+	{\setlength\fboxsep{0pt}
+		\colorbox{myblue}{
+			\parbox[c][3cm][c]{3cm}{
+				\centering\color{white}\fontsize{80}{90}\selectfont \textbf{\thechapter}
+			}
+		}
+	}
 };
-\node[below of=label, minimum height=8cm,text width=0.8\paperwidth, align=right] at (9.5, 2)
-{\begin{flushright}\textbf{\Huge #1}\end{flushright}\vspace{1cm}};;
-\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
-{\color{gray!20}\rule{\paperwidth}{1cm}};
+\node[below of=label, minimum height=8cm,text width=0.8\paperwidth, align=right] at (9.5, 2) {
+	\begin{flushright}\textbf{\Huge #1}\end{flushright}\vspace{1cm}
+};;
+\node[inner sep=0pt,anchor=north west] at ([yshift=-6.9cm]current page.north west){
+	\color{gray!20}\rule{\paperwidth}{1cm}
+};
 \end{tikzpicture}
 }
 [\enlargethispage{-\parskip}]

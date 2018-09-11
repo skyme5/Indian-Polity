@@ -84,9 +84,8 @@
 (current page.north west) rectangle ([yshift=-7cm]current page.north east);
 \node[inner sep=0pt,anchor=west] (label) at
 ([yshift=-4cm]current page text area.west|-current page.north){};
-\node[right of=label, minimum height=17cm,text width=.5\paperwidth] at ([yshift=-4.6cm, xshift=.48\paperwidth]current page text area.west|-current page.north){\begin{flushright}\Huge #1\end{flushright}};;
-\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
-{\color{gray!20}\rule{\paperwidth}{1cm}};
+\node[below of=label, minimum height=8cm,text width=0.8\paperwidth, align=right] at (9.5, 2) {\begin{flushright}\textbf{\Huge #1}\end{flushright}\vspace{1cm}};;
+\node[inner sep=0pt,anchor=north west] at ([yshift=-6.9cm]current page.north west){\color{gray!20}\rule{\paperwidth}{1cm}};
 \end{tikzpicture}
 }
 [\enlargethispage{-\parskip}\vspace{2cm}]

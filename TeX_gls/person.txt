@@ -1,4 +1,4 @@
-A.V. Thakkar
+﻿A.V. Thakkar
 Abdur Rab Nishtar
 Alladi Krishnaswami Ayyar
 Asaf Ali
@@ -48,7 +48,7 @@ Mahatma Gandhi
 Maulana Abul Kalam Azad
 Montagu
 Morris Jones
-N A Palkivala
+N.A. Palkivala
 N. Gopalaswamy Ayyangar
 N. Madhava Rau
 N. Shrinivasan

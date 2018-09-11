@@ -1,4 +1,6 @@
-\documentclass[10pt, oneside, openright, draft]{book}
+% !TeX TS-program = pdflatex
+% !TeX spellcheck = en_US
+\documentclass[10pt, oneside, openright, draft]{memoir}
 % \usepackage{csquotes}
 % \usepackage{mathptmx}
 % \usepackage{textcomp}
@@ -21,6 +23,11 @@
 \usepackage{multicol}
 \setlength{\columnsep}{1cm}
 % \setlength{\columnseprule}{0.1pt}
+\newcommand{\multicolinterrupt}[1]{
+	\end{multicols}
+	#1
+	\begin{multicols}{2}
+}
 
 
 % \usepackage[paperwidth=18cm,
@@ -57,6 +64,7 @@
 {\LARGE\raggedright}
 {}{0cm}
 {
+	\end{multicol}
 	\begin{tikzpicture}[remember picture,overlay]
 	\fill[gray!20]
 	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
@@ -75,6 +83,7 @@
 	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
 	{\color{gray!20}\rule{\paperwidth}{0pt}};
 	\end{tikzpicture}
+	\begin{multicol}
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
 
@@ -161,7 +170,7 @@
 \loadglsentries{TeX_gls/date}
 \loadglsentries{TeX_gls/article}
 
-\hyp{Governor-Genera}
+\hyp{Governor}
 
 \renewcommand{\theendnote}{[\arabic{endnote}]}
 

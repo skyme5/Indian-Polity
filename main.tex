@@ -64,7 +64,6 @@
 {\LARGE\raggedright}
 {}{0cm}
 {
-	\end{multicol}
 	\begin{tikzpicture}[remember picture,overlay]
 	\fill[gray!20]
 	(current page.north west) rectangle ([yshift=-7cm]current page.north east);
@@ -83,7 +82,6 @@
 	\node[inner sep=0pt,anchor=north west] at ([yshift=-7cm]current page.north west)
 	{\color{gray!20}\rule{\paperwidth}{0pt}};
 	\end{tikzpicture}
-	\begin{multicol}{2}
 }
 [\enlargethispage{-\parskip}\vspace{1cm}]
 
@@ -169,8 +167,6 @@
 \loadglsentries{TeX_gls/person}
 \loadglsentries{TeX_gls/date}
 \loadglsentries{TeX_gls/article}
-
-\hyp{Governor}
 
 \renewcommand{\theendnote}{[\arabic{endnote}]}
 

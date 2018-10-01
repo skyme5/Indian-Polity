@@ -1,35 +1,35 @@
-Acts	Good Government of India	Good Government
 Acts	Act of Settlement	Settlement
 Acts	Amending Act of 1781	Amending of 1781
+Acts	Good Government of India	Good Government
+Acts	Indian Councils Act of 1861, 1892 and 1909	of 18-61,92,09
+Acts	Indian Independence Act of 1947	Independence of 1947
+Acts	Pitt's India Act of 1784	Pitts of 1784
+Acts	Regulating Act of 1773	Regulating of 1773
 Acts!Charter	Charter Act of 1833	of 1833
 Acts!Charter	Charter Act of 1853	of 1853
 Acts!Government of India	Government of India Act of 1858	of 1858
 Acts!Government of India	Government of India Act of 1919	of 1919
 Acts!Government of India	Government of India Act of 1935	of 1935
-Acts	Indian Councils Act of 1861, 1892 and 1909	of 18-61,92,09
-Acts	Indian Independence Act of 1947	Independence of 1947
-Acts	Pitt's India Act of 1784	Pitts of 1784
-Acts	Regulating Act of 1773	Regulating of 1773
 Adult Franchise
+bicameralism
 British Commonwealth
-Communal Award
+civil servants
+Communal	Communal Award	Award
+Communal	communal representation	representation
 Fundamental Rights
-Minerva Mills case
-Montagu-Chelmsford Refroms
-Motley-Minto Reforms
+Case	Minerva Mills case	Minerva Mills
+Reform	Montagu-Chelmsford Refroms	Montagu-Chelmsford
+Reform	Morley-Minto Reforms	Morley-Minto
 Mountbatten Plan
 Objectives Resolution
 Poona Pact
-Reserve Bank of India
-Revolt of 1857
-Sepoy mutiny
-Simon Commission
-Yervada Jail
-bicameralism
-civil servants
-communal representation
 portfolio system
 public service commission
-separate budget
-separate electorate
+Reserve Bank of India
+Revolt of 1857
+separate	separate budget	budget
+separate	separate electorate	electorate
+Sepoy mutiny
+Simon Commission
 universal adult franchise
+Yervada Jail

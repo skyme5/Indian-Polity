@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 # @Author: msumsc
 # @Date:   2018-08-27 15:06:35
-# @Last Modified by:   msumsc
-# @Last Modified time: 2018-09-07 20:01:08
+# @Last Modified by:   Sky
+# @Last Modified time: 2018-09-30 20:08:07
 require 'logger'
 require 'colorize'
 
@@ -45,6 +45,7 @@ class Index
 
   def generateEntries
     @index = File.open(@file).read.split("\n").compact.uniq
+    @index.select!{ |a| a.length > 1 }
     @index.map!{
       |entry|
       formatIndexEntry(entry)
@@ -62,6 +63,55 @@ class Index
   end
 end
 
+class Acronym
+  def initialize
+    @basePath = File.join(File.expand_path("."), "TeX_gls")
+    @filePath = File.join(@basePath, "acronym.txt")
+    @enable = File.exist?(@filePath)
+    $logger.warn "No acronym.txt file found" if !@enable
+    @list = getAcrList
+  end
+
+  def getAcrList
+    return [] if !@enable
+    return File.open(@filePath).read.split("\n").compact.map!{
+      |m|
+      data = m.split("\t")
+      a = data.first
+      b = data.last
+      {
+        "entry" => ["\\acrodef{#{a}}[#{a}]{#{b}}",
+                    "\\newglossaryentry\{default:#{a}\}\{",
+                    "\ttype=default,",
+                    "\tname={\\ac\{#{a}\}},",
+                    "\tdescription={#{b}},",
+                    "\tsort={#{a}}",
+                    "}\n"].join("\n"),
+        "find" => data.first,
+        "replace" => "\\gls\{default:#{data.first}\}"
+      }
+    }
+  end
+
+  def save
+    outPath = File.join(@basePath, "acronym.tex")
+    out = File.open(outPath, "w")
+    @list.each{
+      |item|
+      out.puts item["entry"]
+    }
+    out.close
+  end
+
+  def process(body)
+    return body if !@enable
+    @list.each{
+      |item|
+      body.gsub!(item["find"], item["replace"])
+    }
+  end
+end
+
 class FindDates
   def initialize(dir = false)
     @basePath = dir == false ? File.expand_path(".") : dir
@@ -72,8 +122,8 @@ class FindDates
   end
 
   def save
-  	outPath = File.join(@basePath, "TeX_gls")
-  	Dir.mkdir(outPath) if !Dir.exist?(outPath)
+    outPath = File.join(@basePath, "TeX_gls")
+    Dir.mkdir(outPath) if !Dir.exist?(outPath)
     path = File.join(outPath, "date.txt")
     if File.exist?(path)
       print "#{path} already exists, overwrite it ? (yes or no): "
@@ -90,7 +140,7 @@ class FindDates
     out = File.open(path, "w+")
     out.puts @dates.sort
     out.close
-    $logger.debug "#{@dates.length} Dates saved to #{path}"
+    puts "#{@dates.length} Dates saved to #{path}"
   end
 
   def getChapterFiles
@@ -107,7 +157,7 @@ class FindDates
   end
 
   def findDatesInChapters
-    $logger.warn "No Chapter files found at #{@dir}" if @files.length == 0
+    puts "No Chapter files found at #{@dir}" if @files.length == 0
     dates = []
     for file in @files
       body = File.open(file).read
@@ -116,7 +166,7 @@ class FindDates
         dates << m[0]
       }
     end
-    $logger.debug "#{@files.length} Chapter files processed" if @files.length > 0
+    puts "#{@files.length} Chapter files processed" if @files.length > 0
     dates.uniq.sort
   end
 end
@@ -168,7 +218,7 @@ class GlossaryItems
     out = File.open(path, "w+")
     out.puts glsData
     out.close
-    $logger.debug "Glossary #{@type}.tex saved to #{path}"
+    puts "Glossary #{@type}.tex saved to #{path}"
   end
 
   def getEntries
@@ -185,7 +235,8 @@ class GlossaryItems
       ["\\newglossaryentry\{#{entry["label"]}\}\{",
        "\ttype=#{@type},",
        "\tname={#{entry["name"]}},",
-       "\tdescription={#{entry["content"]}}",
+       "\tdescription={#{entry["content"]}},",
+			 "\tsort={#{entry["sort"]}}",
        "}\n"].join("\n")
     }
   end
@@ -223,9 +274,25 @@ class GlossaryItems
   end
 
   def getGLSEntries
-    entries = File.open(@file).read.split("\n").compact.uniq
+    $logger.debug "GlossaryItems: processing #{@file}"
+    list = File.open(@file).read.split("\n")
+    list.select!{|a| a.length > 1}
+
+    keys = []
+    entries = []
+    list.each{
+      |entry|
+      key = entry.split("\t").first
+      if keys.include? key
+        $logger.warn "GLOSSARY:DUPLIATE #{key}"
+      else
+        entries << entry
+        keys << key
+      end
+    }
+
     count = 0
-    entries.map!{
+    entries.map{
       |entry|
       count = count + 1
       fields = entry.split("\t")
@@ -244,6 +311,7 @@ class GlossaryItems
       label = @glsID + find.upcase.gsub(/\W/,'-').gsub(/\-+/,'-')
       {
         "label" => label,
+        "sort" => find.upcase.gsub(/\W/,'-').gsub(/\-+/,'-'),
         "type" => @type,
         "name" => parseIfDate(title),
         "content" => content,
@@ -284,6 +352,9 @@ class GlossaryIndex
   end
 
   def process
+    _acronym = Acronym.new
+    _acronym.save
+    _acronym.process(@filesData)
     _index = Index.new(@basePath)
     _index.process(@filesData)
     @filesGLS.each{
@@ -309,7 +380,7 @@ class GlossaryIndex
     files = Dir.entries(dir)
     files.select!{
       |file|
-      file.include? ext
+      file.include? ext and !["acronym.txt"].include? file
     }
     files.map!{
       |file|
@@ -327,7 +398,7 @@ if options.empty?
   gls.save()
 else
   if options.include? "-init" or options.include? "-i"
-    $logger.info "Setting up tex project ..."
+    puts "Setting up tex project ..."
     system("robocopy C:\\Code\\ruby\\textool\\init . /E > nul")
     system("git init > nul")
   end
@@ -339,7 +410,7 @@ else
   if options.include? "-find" or options.include? "-f"
     regexp = Regexp.compile(options.select{|a| a.include? "/"}[0][1..-2], Regexp::MULTILINE | Regexp::IGNORECASE)
     tex = options.select{|a| a.include? ".tex"}
-    $logger.info "Searching with #{regexp} in #{tex}"
+    puts "Searching with #{regexp} in #{tex}"
     tex.each{
       |file|
       puts File.open(File.join(File.expand_path("."), file)).read.scan(regexp)
@@ -349,20 +420,17 @@ end
 
 
 puts "Committing changes...".colorize(:yellow)
-system("git add . && git commit -m \"commit before build\"")
-puts "Building index".colorize(:yellow)
-system("makeindex.exe \"main\".tex")
-puts "Building glossaries".colorize(:yellow)
-system("makeglossaries.exe \"main\"")
+system("git add .")
+system("git commit -m \"commit before build\"")
 puts "Compiling Tex (1)".colorize(:yellow)
-system("pdflatex.exe -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 puts "ReBuilding index".colorize(:yellow)
 system("makeindex.exe \"main\".tex")
 puts "ReBuilding glossaries".colorize(:yellow)
 system("makeglossaries.exe \"main\"")
 puts "Compiling Tex (2)".colorize(:yellow)
-system("pdflatex.exe -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 puts "Compiling Tex (3)".colorize(:yellow)
-system("pdflatex.exe -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 puts "Preview PDF".colorize(:yellow)
 system("SumatraPDF.exe main.pdf")

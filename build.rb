@@ -2,7 +2,7 @@
 # @Author: msumsc
 # @Date:   2018-08-27 15:06:35
 # @Last Modified by:   Sky
-# @Last Modified time: 2018-10-01 23:32:22
+# @Last Modified time: 2018-10-01 23:33:46
 require 'logger'
 require 'colorize'
 
@@ -423,14 +423,14 @@ $logger.info "Committing changes...".colorize(:yellow)
 system("git add .")
 system("git commit -m \"commit before build\"")
 $logger.info "Compiling Tex (1)".colorize(:yellow)
-system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -time-statistics -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 $logger.info "ReBuilding index".colorize(:yellow)
 system("makeindex.exe \"main\".tex")
 $logger.info "ReBuilding glossaries".colorize(:yellow)
 system("makeglossaries.exe \"main\"")
 $logger.info "Compiling Tex (2)".colorize(:yellow)
-system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -time-statistics -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 $logger.info "Compiling Tex (3)".colorize(:yellow)
-system("pdflatex.exe -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+system("pdflatex.exe -time-statistics -c-style-errors -recorder -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
 $logger.info "Preview PDF".colorize(:yellow)
 system("SumatraPDF.exe main.pdf")

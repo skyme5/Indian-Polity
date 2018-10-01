@@ -225,6 +225,13 @@ INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibra
 INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifoddpage/ifoddpage.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifoddpage/ifoddpage.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/acronym/acronym.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/acronym/acronym.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/bigfoot/suffix.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/bigfoot/suffix.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xstring/xstring.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xstring/xstring.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/xstring/xstring.tex
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
@@ -330,6 +337,7 @@ INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-tree.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/ttlkeys.def
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/ttlkeys.def
 OUTPUT main.idx
+OUTPUT main.acn
 OUTPUT main.default.out
 OUTPUT main.person.out
 OUTPUT main.committee.out
@@ -368,13 +376,10 @@ INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
 INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
-INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecsl1200.tfm
-OUTPUT main.pdf
-INPUT C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-OUTPUT main.ist
 INPUT cover/front.pdf
 INPUT cover/front.pdf
 INPUT ./cover/front.pdf
+OUTPUT main.pdf
 INPUT ./cover/front.pdf
 INPUT ./cover/front.pdf
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
@@ -398,6 +403,8 @@ INPUT cover/front.pdf
 INPUT ./cover/front.pdf
 INPUT cover/front.pdf
 INPUT ./cover/front.pdf
+INPUT C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+OUTPUT main.ist
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmss.fd
 INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmss.fd
 INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1200.tfm
@@ -426,6 +433,7 @@ INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
 INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
 INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
 INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT main.lot
 INPUT main.lot
 OUTPUT body.aux

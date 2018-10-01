@@ -1,0 +1,517 @@
+PWD B:/Writing/Books/Indian_Polity_V2
+INPUT C:/Users/Sky/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT main.tex
+OUTPUT main.log
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/memoir.cls
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/memoir.cls
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifetex/ifetex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifetex/ifetex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/plain/ifetex/ifetex.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/mem12.clo
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/mem12.clo
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/babel/babel.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/babel/switch.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/babel-english/british.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/babel-english/british.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/babel-english/english.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/babel/babel.def
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/babel/txtbabel.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/titlesec.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/titlesec.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/anyfontsize/anyfontsize.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/anyfontsize/anyfontsize.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/enotez/enotez.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/enotez/enotez.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/expl3-code.tex
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/unicode-data/UnicodeData.txt
+INPUT nul:.tex
+INPUT nul:.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3kernel/l3pdfmode.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/xtemplate/xtemplate.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/l3packages/xtemplate/xtemplate.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xpatch/xpatch.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xpatch/xpatch.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/koma-script/scrlfile.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/koma-script/scrlfile.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translations/translations.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translations/translations.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyphenat/hyphenat.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyphenat/hyphenat.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/imakeidx/imakeidx.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/imakeidx/imakeidx.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/xkeyval/xkeyval.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/xkeyval/xkvutils.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/multicol.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/multicol.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/lettrine/lettrine.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/lettrine/lettrine.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/minifp/minifp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/minifp/minifp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/lettrine/lettrine.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/lettrine/lettrine.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype-pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype-pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/microtype/microtype.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pdfpages/pdfpages.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pdfpages/pdfpages.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/atbegshi.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/atbegshi.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pdfpages/pppdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pdfpages/pppdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tikzpagenodes/tikzpagenodes.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tikzpagenodes/tikzpagenodes.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/frontendlayer/tikz.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/frontendlayer/tikz.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/basiclayer/pgf.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/basiclayer/pgf.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfutil-common.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfutil-common-lists.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfutil-latex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ms/everyshi.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ms/everyshi.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/basiclayer/pgfcore.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/basiclayer/pgfcore.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/systemlayer/pgfsys.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/systemlayer/pgfsys.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgf.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathcalc.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathutil.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathparser.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmathfloat.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgffor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgffor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/math/pgfmath.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/pgf/math/pgfmath.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifoddpage/ifoddpage.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/ifoddpage/ifoddpage.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/memhfixc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/memoir/memhfixc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/base/glossaries.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/base/glossaries.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/mfirstuc/mfirstuc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/mfirstuc/mfirstuc.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/textcase/textcase.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/textcase/textcase.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xfor/xfor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/xfor/xfor.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/datatool/datatool-base.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/datatool/datatool-base.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/substr/substr.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/substr/substr.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/datatool/datatool-fp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/datatool/datatool-fp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/defpattern.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/defpattern.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-basic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-basic.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-addons.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-addons.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-snap.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-snap.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-exp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-exp.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-trigo.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-trigo.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-pas.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-pas.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-random.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-random.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-eqn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-eqn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-upn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-upn.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-eval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/fp/fp-eval.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/base/glossaries-compatible-307.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/base/glossaries-compatible-307.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tracklang/tracklang.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/tracklang/tracklang.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/tracklang/tracklang.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/tracklang/tracklang.tex
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translator/translator.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries-english/glossaries-english.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries-english/glossaries-english.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries-english/glossaries-english.ldf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-hypernav.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-list.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-list.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-long.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-long.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-super.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-super.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/supertabular/supertabular.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/glossaries/styles/glossary-tree.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/ttlkeys.def
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/titlesec/ttlkeys.def
+OUTPUT main.idx
+OUTPUT main.default.out
+OUTPUT main.person.out
+OUTPUT main.committee.out
+OUTPUT main.date.out
+OUTPUT main.article.out
+INPUT TeX_gls/default.tex
+INPUT TeX_gls/default.tex
+INPUT TeX_gls/committee.tex
+INPUT TeX_gls/committee.tex
+INPUT TeX_gls/person.tex
+INPUT TeX_gls/person.tex
+INPUT TeX_gls/date.tex
+INPUT TeX_gls/date.tex
+INPUT TeX_gls/article.tex
+INPUT TeX_gls/article.tex
+INPUT main.aux
+INPUT main.aux
+INPUT body.aux
+INPUT body.aux
+OUTPUT main.aux
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
+INPUT D:/Latex/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT D:/Latex/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/lscape.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/graphics/lscape.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT D:/Latex/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+OUTPUT main.pdf
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1200.tfm
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT cover/front.pdf
+INPUT ./cover/front.pdf
+INPUT C:/Users/Sky/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+OUTPUT main.ist
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmss.fd
+INPUT D:/Latex/MiKTeX 2.9/tex/latex/base/t1cmss.fd
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss2074.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss3583.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm2488.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx2488.tfm
+INPUT main.toc
+INPUT main.toc
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1440.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecsl1200.tfm
+INPUT main.lot
+INPUT main.lot
+OUTPUT body.aux
+INPUT body.tex
+INPUT body.tex
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm2074.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1728.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/eccc1728.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm3583.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx3583.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx2074.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/eccc1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm3583.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm3583.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm0800.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecti1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbi1200.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm0600.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT main.default.in
+INPUT main.default.in
+INPUT main.default.in
+INPUT main.article.in
+INPUT main.article.in
+INPUT main.article.in
+INPUT main.date.in
+INPUT main.date.in
+INPUT main.date.in
+INPUT main.committee.in
+INPUT main.committee.in
+INPUT main.committee.in
+INPUT main.person.in
+INPUT main.person.in
+INPUT main.person.in
+INPUT main.ind
+INPUT main.ind
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1440.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecsx1440.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecss1095.tfm
+INPUT D:/Latex/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1095.tfm
+OUTPUT main.toc
+OUTPUT main.lot
+INPUT main.aux
+INPUT body.aux
+INPUT body.aux
+INPUT D:/Latex/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2488.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2488.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1728.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1728.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1095.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss1095.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss2074.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss2074.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfss3583.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfsx1440.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb
+INPUT D:/Latex/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb

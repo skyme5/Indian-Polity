@@ -2,7 +2,7 @@
 # @Author: msumsc
 # @Date:   2018-08-27 15:06:35
 # @Last Modified by:   Sky
-# @Last Modified time: 2018-10-01 23:33:46
+# @Last Modified time: 2018-10-01 23:41:49
 require 'logger'
 require 'colorize'
 
@@ -256,7 +256,7 @@ class GlossaryItems
     day = _date[2].to_i
     if day == 0
       if month == 0
-        return "Year #{year}"
+        return "#{year}"
       else
         return "#{month} #{year}"
       end

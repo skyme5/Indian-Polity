@@ -1,15 +1,15 @@
-Acts	Act for the Good Government of India
-Acts	Act of Settlement
-Acts	Amending Act of 1781
-Acts	Charter Act of 1833
-Acts	Charter Act of 1853
-Acts	Government of India Act of 1858
-Acts	Government of India Act of 1919
-Acts	Government of India Act of 1935
-Acts	Indian Councils Act of 1861, 1892 and 1909
-Acts	Indian Independence Act of 1947
-Acts	Pitt's India Act of 1784
-Acts	Regulating Act of 1773
+Acts	Good Government of India	Good Government
+Acts	Act of Settlement	Settlement
+Acts	Amending Act of 1781	Amending of 1781
+Acts!Charter	Charter Act of 1833	of 1833
+Acts!Charter	Charter Act of 1853	of 1853
+Acts!Government of India	Government of India Act of 1858	of 1858
+Acts!Government of India	Government of India Act of 1919	of 1919
+Acts!Government of India	Government of India Act of 1935	of 1935
+Acts	Indian Councils Act of 1861, 1892 and 1909	of 18-61,92,09
+Acts	Indian Independence Act of 1947	Independence of 1947
+Acts	Pitt's India Act of 1784	Pitts of 1784
+Acts	Regulating Act of 1773	Regulating of 1773
 Adult Franchise
 British Commonwealth
 Communal Award

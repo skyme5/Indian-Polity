@@ -4,10 +4,10 @@
 *.alg
 *.aux
 *.bak
-*.bat
 *.bbl
 *.date
 *.default
+*.fls
 *.glg
 *.glo
 *.gls

@@ -1,0 +1,2 @@
+- name: LaTeX linter (chktex)
+  uses: j2kun/chktex-action@v1.0.0

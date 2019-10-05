@@ -2,13 +2,16 @@
 # @Author: msumsc
 # @Date:   2018-08-27 15:06:35
 # @Last Modified by:   Sky
-# @Last Modified time: 2019-01-30 14:56:28
+# @Last Modified time: 2019-04-19 23:57:16
 require 'logger'
-require 'colorize'
+require 'coloredlogger'
 require 'fileutils'
 
-$log = Logger.new(STDOUT)
-$log.info  "Running TexTools".colorize(:yellow)
+$log = ColoredLogger.new(STDOUT)
+$log.info  "Running TexTools"
+$compiler = "pdflatex"
+$enable_glossary = false
+$enable_index = Dir.exist?("TeX_gls") && File.exist?("TeX_index/default.txt") && File.stat(File.join(basePath, "TeX_index", "index.txt")).size > 0
 
 class Index
   def initialize(dir = false)
@@ -44,8 +47,8 @@ class Index
   end
 
   def generateEntries
-    $log.info "INDEX Read => #{@file}"
-    @index = File.read(@file).split("\n").compact.uniq.select{ |e| e.length > 0}
+    $log.debug "INDEX Read => #{@file}"
+    @index = File.read(@file).split("\n").compact.uniq
     @index.map!{
       |entry|
       formatIndexEntry(entry)
@@ -101,7 +104,7 @@ class Acronym
 
   def save
     outPath = File.join(@basePath, "acronym.tex")
-    $log.info "ACRONYM Write => #{outPath}"
+    $log.debug "ACRONYM Write => #{outPath}"
     out = File.open(outPath, "w")
     @list.each{
       |item|
@@ -144,11 +147,11 @@ class FindDates
   end
 
   def createFile(path)
-    $log.info "DATES Write => #{path}"
+    $log.debug "DATES Write => #{path}"
     out = File.open(path, "w+")
     out.puts @dates.sort
     out.close
-    $log.info "#{@dates.length} Dates saved to #{path}"
+    $log.debug "#{@dates.length} Dates saved to #{path}"
   end
 
   def getChapterFiles
@@ -175,7 +178,7 @@ class FindDates
         dates << m[0]
       }
     end
-    $log.info "DATES Found => #{dates.length}, #{@files.length} Chapter files processed" if @files.length > 0
+    $log.debug "DATES Found => #{dates.length}, #{@files.length} Chapter files processed" if @files.length > 0
     dates.uniq.sort
   end
 end
@@ -190,7 +193,7 @@ class EndNotes
     if !File.exist?(file)
       return body
     else
-      $log.info "ENDNOTE Write => #{file}"
+      $log.debug "ENDNOTE Write => #{file}"
       count = -1
       refList = File.open(file).read.split("\n").compact
       data = body.split("\\endnote")
@@ -203,7 +206,7 @@ class EndNotes
           note
         end
       }
-      $log.warn "Wrong number of ref(#{count},#{refList.length}) encountered in #{_file}".colorize(:red) if count != refList.length
+      $log.warn "Wrong number of ref(#{count},#{refList.length}) encountered in #{_file}" if count != refList.length
       return data.join("")
     end
   end
@@ -225,11 +228,11 @@ class GlossaryItems
   end
 
   def createFile(path)
-    $log.info "GLOSSARY Create => #{path}"
+    $log.debug "GLOSSARY Create => #{path}"
     out = File.open(path, "w+")
     out.puts glsData
     out.close
-    $log.info  "Glossary #{@type}.tex saved to #{path}"
+    $log.debug  "Glossary #{@type}.tex saved to #{path}"
   end
 
   def getEntries
@@ -285,8 +288,8 @@ class GlossaryItems
   end
 
   def getGLSEntries
-    $log.info "GLOSSARY Scan => #{@file}"
-    entries = File.open(@file).read.split("\n").compact.uniq.select{ |e| e.length > 0}
+    $log.debug "GLOSSARY Scan => #{@file}"
+    entries = File.open(@file).read.split("\n").compact.uniq
     count = 0
     entries.map!{
       |entry|
@@ -339,11 +342,14 @@ class GlossaryIndex
     raise "TEX_DIR_NOT_FOUND" if !Dir.exist?(@dirGLS)
     @filesGLS = getFiles(@dirGLS, ".txt")
     @filesTEX = getFiles(@dirTex, ".tex")
+
+    $enable_glossary = @filesGLS.length > 0
+    $log.info "#{@filesTEX.length} TeX files found"
     @filesData = getFilesData
   end
 
   def save
-    $log.info "GLOSSARY Write => #{@basePath}"
+    $log.debug "GLOSSARY Write => #{@basePath}"
     out = File.open(File.join(@basePath, "body.tex"), "w+")
     out.puts @filesData
     out.close
@@ -357,10 +363,10 @@ class GlossaryIndex
     _index.process(@filesData)
     @filesGLS.each{
       |file|
-      $log.info "GLOSSARY Process => #{file}"
+      $log.debug "GLOSSARY Process => #{file}"
       _gls = GlossaryItems.new(file)
       _gls.save()
-      $log.info "glossaries processing => #{file}"
+      $log.debug "glossaries processing => #{file}"
       _gls.process(@filesData)
     }
   end
@@ -370,14 +376,40 @@ class GlossaryIndex
     _endnotes = EndNotes.new
     @filesTEX.each{
       |file|
-      $log.info "GLOSSARY Read => #{file}"
+      $log.debug "GLOSSARY Read => #{file}"
       data << "\% From File: #{file}\n\%\n"
       data << _endnotes.process(file, File.read(file))
     }
     data = data.join("\n")
   end
 
+  def files(dir, ext)
+    return dir if !File.directory?(dir)
+
+    files = Dir.entries(dir).select {
+      |a|
+      ![".", "..", "acronym.txt"].include? a
+    }
+
+    files.map!{
+      |e|
+      File.join(dir, e)
+    }
+
+    files.map!{
+      |e|
+      files(e, ext)
+    }
+
+    files.flatten.sort.uniq.compact.select{
+        |a|
+        File.extname(a) == ext
+    }
+  end
+
   def getFiles(dir, ext)
+    return files(dir, ext)
+
     files = Dir.entries(dir)
     files.select!{
       |file|
@@ -389,6 +421,51 @@ class GlossaryIndex
     }
     files.uniq.compact
   end
+end
+
+def update_mainTex
+  basePath = File.expand_path(".")
+  mainTex = File.join(basePath, "TeX_main", "main.tex")
+  mainTex_data = File.read(mainTex)
+  $compiler = (mainTex_data.include? "xelatex") ? "xelatex" : "pdflatex"
+  $log.info  "selected #{$compiler} as tex compiler"
+
+  if !File.exist?("main.tex") || mainTex_data != File.read("main.tex")
+    FileUtils.cp(mainTex, basePath)
+    $log.info  "main.tex changed, updating..."
+  end
+end
+
+def commit_changes
+  if ARGV.include? "commit" or ARGV.include? "save"
+    $log.info  "Committing changes..."
+    system("git add .")
+    system("git commit -m \"commit before build\"")
+  end
+end
+
+def compile_tex
+  $log.info  "Compiling Tex"
+  system("#{$compiler} -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
+end
+
+def make_index
+  return if !$enable_index
+  $log.info  "ReBuilding index"
+  system("makeindex.exe \"main\".tex")
+end
+
+def make_glossary
+  return if !$enable_glossary
+  $log.info  "ReBuilding glossaries"
+  system("makeglossaries.exe \"main\"")
+  compile_tex
+  compile_tex
+end
+
+def preview_pdf
+  $log.info  "Preview PDF"
+  system("SumatraPDF.exe main.pdf")
 end
 
 options = ARGV
@@ -419,33 +496,9 @@ else
   end
 end
 
-basePath = File.expand_path(".")
-mainTex = File.join(basePath, "TeX_main", "main.tex")
-hasindex = File.stat(File.join(basePath, "TeX_index", "index.txt"))
-mainTex_data = File.read(mainTex)
-compiler = (mainTex_data.include? "xelatex") ? "xelatex" : "pdflatex"
-$log.info  "selected #{compiler} as tex compiler".colorize(:yellow)
-
-if !File.exist?("main.tex") || mainTex_data != File.read("main.tex")
-  FileUtils.cp(mainTex, basePath)
-  $log.info  "main.tex changed, updating...".colorize(:yellow)
-end
-
-if ARGV.include? "commit" or ARGV.include? "save"
-  $log.info  "Committing changes...".colorize(:yellow)
-  system("git add .")
-  system("git commit -m \"commit before build\"")
-end
-
-$log.info  "Compiling Tex (1)".colorize(:yellow)
-system("#{compiler} -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
-$log.info  "ReBuilding index".colorize(:yellow) if hasindex.size > 0
-system("makeindex.exe \"main\".tex") if hasindex.size > 0
-$log.info  "ReBuilding glossaries".colorize(:yellow)
-system("makeglossaries.exe \"main\"")
-$log.info  "Compiling Tex (2)".colorize(:yellow)
-system("#{compiler} -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
-$log.info  "Compiling Tex (3)".colorize(:yellow)
-system("#{compiler} -quiet -synctex=1 -interaction=nonstopmode \"main\".tex")
-$log.info  "Preview PDF".colorize(:yellow)
-system("SumatraPDF.exe main.pdf")
+update_mainTex
+commit_changes
+compile_tex
+make_index
+make_glossary
+preview_pdf

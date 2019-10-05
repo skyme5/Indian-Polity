@@ -1,12 +1,13 @@
 % !TeX TS-program = pdflatex
 % !TeX spellcheck = en_US
-\documentclass[12pt, openright, draft]{memoir}
+\documentclass[12pt, openright, draft, showtrims]{memoir}
 % \usepackage{csquotes}
 % \usepackage{mathptmx}
 % \usepackage{textcomp}
 \usepackage[british]{babel}
 \usepackage[explicit]{titlesec}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage[utf8]{inputenc}
 \usepackage{anyfontsize}
 \usepackage{booktabs}
@@ -21,6 +22,7 @@
 \usepackage{tikzpagenodes}
 \usepackage{xcolor}
 \usepackage{acronym}
+\usepackage{csvsimple}
 \usepackage{multicol}
 \setlength{\columnsep}{1cm}
 % \setlength{\columnseprule}{0.1pt}
@@ -54,6 +56,19 @@
 			pdfcreator={Latex with hyperref}]{hyperref}
 \usepackage[nomain, acronym, toc]{glossaries}
 
+\hypersetup{
+	pdfinfo = {
+		Author = M. Laxmikanth,
+		Title = Indian Polity for Civil Services Examinations,
+		Subject = Indian Polity,
+		Keywords = {Polity, Indian Polity, Civil Services},
+		Producer = TeX version,
+		Creator = LaTeX editor,
+		Version = 2.0,
+		Comment = Comment goes here
+	}
+}
+
 \setenotez{reset=true, list-name=Notes and References, backref=true, totoc=section}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,7 +87,7 @@
 	{\setlength\fboxsep{0pt}\colorbox{myblue}{\parbox[c][3cm][c]{3cm}{\centering\color{white}\fontsize{80}{90}\selectfont \textbf{\thechapter}}}}
 };
 \node[below of=label, minimum height=8cm,text width=0.8\paperwidth, align=right] at (9.5, 2) {\begin{flushright}\textbf{\Huge #1}\end{flushright}\vspace{1cm}};;
-\node[inner sep=0pt,anchor=north west] at ([yshift=-6.95cm]current page.north west){\color{gray!20}\rule{\paperwidth}{1cm}};
+\node[inner sep=0pt,anchor=north west] at ([yshift=-6.95cm]current page.north west){\color{gray!20}\rule{\paperwidth}{2cm}};
 \end{tikzpicture}
 }
 [\enlargethispage{-\parskip}\vspace{1.5cm}]
@@ -87,7 +102,7 @@
 \node[inner sep=0pt,anchor=west] (label) at
 ([yshift=-4cm]current page text area.west|-current page.north){};
 \node[below of=label, minimum height=8cm,text width=0.8\paperwidth, align=right] at (9.5, 2) {\begin{flushright}\textbf{\Huge #1}\end{flushright}\vspace{1cm}};;
-\node[inner sep=0pt,anchor=north west] at ([yshift=-6.95cm]current page.north west){\color{gray!20}\rule{\paperwidth}{1cm}};
+\node[inner sep=0pt,anchor=north west] at ([yshift=-6.95cm]current page.north west){\color{gray!20}\rule{\paperwidth}{2cm}};
 \end{tikzpicture}
 }
 [\enlargethispage{-\parskip}\vspace{1.5cm}]
@@ -148,6 +163,10 @@
 % \setlength{\parskip}{0pt}
 % \titlespacing*{\section}{0cm}{10pt}{10pt}
 
+% taken from memoir manual pg.52
+\clubpenalty=10000
+\widowpenalty=10000
+\raggedbottom
 
 
 
@@ -202,7 +221,7 @@
 \loadglsentries{TeX_gls/acronym}
 
 \renewcommand{\theendnote}{[\arabic{endnote}]}
-
+\renewcommand{\arraystretch}{1.3}
 
 \begin{document}
 
@@ -233,7 +252,10 @@
 \vspace{1in}
 {\sffamily\fontsize{50}{60}\selectfont{
 	\begin{flushleft}
-		Indian Polity for Civil Services Examinations
+		Indian Polity\\
+		for\\
+		Civil Services\\
+		Examinations
 	\end{flushleft}
 }\par}
 \cleardoublepage

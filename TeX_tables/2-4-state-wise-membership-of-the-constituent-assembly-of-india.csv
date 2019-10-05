@@ -1,0 +1,45 @@
+S.No.,Name                                      ,No. of Members
+A.   ,Provinces (Indian Provinces)              ,229
+1    , Madras                                   ,49
+2    , Bombay                                   ,21
+3    , West Bengal                              ,19
+4    , United Provinces                         ,55
+5    , East Punjab                              ,12
+6    , Bihar                                    ,36
+7    , C.P. and Berar                           ,17
+8    , Assam                                    ,8
+9    , Orissa                                   ,9
+10   , Delhi                                    ,1
+11   , Ajmer-Merwara                            ,1
+12   , Coorg                                    ,1
+B.   , Indian States (Princely States)          ,70
+1    , Alwar                                    ,1
+2    , Baroda                                   ,3
+3    , Bhopal                                   ,1
+4    , Bikaner                                  ,1
+5    , Cochin                                   ,1
+6    , Gwalior                                  ,4
+7    , Indore                                   ,1
+8    , Jaipur                                   ,3
+9    , Jodhpur                                  ,2
+10   , Kolhapur                                 ,1
+11   , Kotah                                    ,1
+12   , Mayurbhanj                               ,1
+13   , Mysore                                   ,7
+14   , Patiala                                  ,2
+15   , Rewa                                     ,2
+16   , Travancore                               ,6
+17   , Udaipur                                  ,2
+18   , Sikkim and Cooch Behar Group             ,1
+19   ," Tripura, Manipur and Khasi States Group",1
+20   , U.P. States Group                        ,1
+21   , Eastern Rajputana States Group           ,3
+22   , Central India States Group               ,3
+23   , Western India States Group               ,4
+24   , Gujarat States Group                     ,2
+25   , Deccan and Madras States Group           ,2
+26   , Punjab States Group                      ,3
+27   , Eastern States Group I                   ,4
+28   , Eastern States Group II                  ,3
+29   , Residuary States Group                   ,4
+     , Total                                    ,299

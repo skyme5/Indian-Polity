@@ -23,8 +23,8 @@
 *.lot
 *.md5
 *.out
+!/Tex_cover/front.pdf
 *.pdf
-!/TeX_cover/front.pdf
 *.person
 *.png
 *.synctex

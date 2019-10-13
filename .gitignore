@@ -24,6 +24,7 @@
 *.md5
 *.out
 *.pdf
+!/TeX_cover/front.pdf
 *.person
 *.png
 *.synctex

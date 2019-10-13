@@ -23,10 +23,11 @@
 *.lot
 *.md5
 *.out
-!/Tex_cover/front.pdf
+!/TeX_cover/front.pdf
 *.pdf
 *.person
 *.png
 *.synctex
 *.toc
 *.zip
+*.fdb_latexmk

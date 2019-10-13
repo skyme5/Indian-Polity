@@ -13,3 +13,4 @@ jobs:
         uses: xu-cheng/latex-action@1.0.5
         with:
           root_file: main.tex
+          extra_packages: "acronym anyfontsize babel booktabs csvsimple enotez fontenc geometry glossaries graphicx hyperref hyphenat imakeidx inputenc lettrine lmodern longtable microtype multicol pdfpages tikzpagenodes titlesec xcolor"
